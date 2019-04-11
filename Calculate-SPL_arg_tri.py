@@ -3,8 +3,6 @@
 
 # # ZKM SOUNDSCAPE ANALYSIS
 
-# 1) calculate ENERGY LEVELS
-#
 #
 # CALCULATE ENERGY LEVELS
 #
@@ -15,55 +13,6 @@
 # NORMALISE MAGNITUDE
 #
 # CALCULATE dB TO ZERO
-#
-# SHOW THE NUMBERS AS COLORS IN THE OCTAVES (SPECTRUM OCTAVE TO OCTAVE) PRESENCE OF HARMONICS
-#
-# SUM is THE OVERALL ENERGY
-#
-# original file
-#
-# P1.wav stereo 44100 24
-#
-# mix and split 16
-#
-# mono left right 16 bit
-#
-# filterA
-#
-# return object [Amono, Aleft, Aright]
-#
-# P1 = {
-#
-# filtered_splits =
-# [Amono, Aleft, Aright]
-#
-# extractions = {
-# //first iteration
-# property .F = F_Amono.wav,
-# property .B = B_Amono.wav,
-# //second iteration
-# property .FF = FF_Amono.wav,
-# property .FB = FB_Amono.wav,
-# property .BF = BF_Amono.wav,
-# property .BB = BB_Amono.wav
-# }
-#
-# Run CALC_ENV_FILE
-#
-# on full length plotting mono, left, right (k, b, r)
-#
-# LA10 LA50 LA90
-#
-# on F = give number
-# on B = give number
-#
-# on FF, FB, BF, BB = give number dB
-#
-# compare relationships (diff in profiles (curves))
-#
-#
-
-# In[1]:
 
 
 from librosa import load
