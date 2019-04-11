@@ -133,17 +133,3 @@ if __name__ == "__main__":
 
 
 
-
-
-
-
-# 271115B_P4-mono_A.wav
-# 271115A_P4-mono_A.wav
-# 271109B_P3-mono_A.wav
-# 271109A_P3-mono_A.wav
-# 261117_P2-mono_A.wav
-# 261113N2-mono_A.wav
-# 261113N-mono_A.wav
-# 261113B_P5-mono_A.wav
-# 261113A_P6-mono_A.wav
-# 251119_P1-mono_A.wav
